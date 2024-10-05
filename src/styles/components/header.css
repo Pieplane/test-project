@@ -1,0 +1,45 @@
+.header {
+    /* Head */
+
+position: absolute;
+width: 360px;
+height: 64px;
+left: 0px;
+top: 0px;
+background: #F8FAFF;
+  }
+  
+.header__logo {
+    /* Logo */
+
+position: absolute;
+width: 120px;
+height: 40px;
+left: 115px;
+top: 12px;
+  }
+  
+.header__auth {
+    /* Profile */
+
+box-sizing: border-box;
+position: absolute;
+width: 24px;
+height: 24px;
+left: 16px;
+top: 21px;
+border-radius: 32px;
+
+  }
+  
+  .header__menu {
+    /* menu */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 320px;
+top: 20px;
+
+
+  }
