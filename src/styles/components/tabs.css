@@ -1,0 +1,111 @@
+.tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tab-content {
+    /* btn */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 296px;
+height: 56px;
+left: 16px;
+top: 88px;
+
+background: #EFF4FF;
+border-radius: 8px;
+z-index: 101;
+
+  }
+  .tab-onFoot{
+    /* On foot */
+
+position: absolute;
+width: 100px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+
+  }
+  
+  .tab-car{
+   /* Car */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 120px;
+top: 0px;
+
+
+
+
+  }
+  .tab-truck{
+    /* Truck */
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 218px;
+top: 0px;
+
+
+ 
+ 
+ 
+ 
+   }
+  .tab-choice1{
+    /* btn1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 96px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+/* Colour / White */
+background: #FFFFFF;
+/* Colour / Blue */
+border: 2px solid #2B6BF3;
+
+  }
+  .tab-choice2{
+    /* btn1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 96px;
+height: 56px;
+left: 100px;
+top: 0px;
+
+/* Colour / White */
+background: #FFFFFF;
+/* Colour / Blue */
+border: 2px solid #2B6BF3;
+
+  }
+  .tab-choice3{
+    /* btn1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 96px;
+height: 56px;
+left: 200px;
+top: 0px;
+
+/* Colour / White */
+background: #FFFFFF;
+/* Colour / Blue */
+border: 2px solid #2B6BF3;
+
+  }

@@ -1,0 +1,84 @@
+.main{
+    /* Main */
+
+position: absolute;
+width: 360px;
+height: 1344px;
+left: 0px;
+top: 0px;
+
+
+}
+.main__pad{
+    /* pad */
+
+position: absolute;
+width: 360px;
+height: 1344px;
+left: 0px;
+top: 0px;
+
+background: #F8FAFF;
+
+}
+
+.getStarted{
+    /* GetStarted */
+
+position: absolute;
+width: 328px;
+height: 472px;
+left: 16px;
+top: 96px;
+
+
+}
+
+.pad{
+    /* pad */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 328px;
+height: 472px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 8px 16px rgba(43, 107, 243, 0.08);
+border-radius: 8px;
+
+}
+.lets{
+    /* Let’s Get Started */
+position: absolute;
+left: 16px;
+top: 39px;
+width: 143px;
+height: 32px;
+
+font-family: 'Intro-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+/* Colour / DarkBlue */
+color: #1D253C;
+z-index: 100; /* Убедись, что меню отображается поверх других элементов */
+
+
+}
+.i{
+    /* i */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 175px;
+top: 36px;
+z-index: 100; /* Убедись, что меню отображается поверх других элементов */
+
+}
