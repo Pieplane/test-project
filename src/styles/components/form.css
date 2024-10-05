@@ -1,0 +1,236 @@
+.from{
+    /* From */
+
+position: absolute;
+width: 256px;
+height: 51px;
+left: 56px;
+top: 181px;
+
+z-index: 100;
+
+}
+
+.pickUpLocation{
+    /* Pickup location */
+
+position: absolute;
+left: 0%;
+right: 61.72%;
+top: 0%;
+bottom: 68.63%;
+
+font-family: 'Intro-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #C4CEE6;
+width: 200px; /* например, увеличьте ширину */
+
+
+}
+
+.to{
+    /* To */
+
+position: absolute;
+width: 256px;
+height: 51px;
+left: 56px;
+top: 269px;
+
+z-index: 100;
+}
+
+.dropLocation{
+    /* Drop location */
+
+position: absolute;
+left: 0%;
+right: 56.25%;
+top: 0%;
+bottom: 68.63%;
+
+font-family: 'Intro-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #C4CEE6;
+z-index: 100;
+width: 200px; /* например, увеличьте ширину */
+
+
+}
+
+.inputPickUp{
+    /* 34 Cooper Sq, New York, NY 10003 */
+border: none; /* Убирает рамку */
+outline: none; /* Убирает обводку */
+background: transparent; /* Убирает фон */  
+
+position: absolute;
+left: 0%;
+right: 50.78%;
+top: 45.1%;
+bottom: 7.84%;
+
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+/* Colour / DarkBlue */
+color: #1D253C;
+
+
+}
+.input1{
+    /* input */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 96.08%;
+bottom: 0%;
+
+background: rgba(43, 107, 243, 0.16);
+border-radius: 4px;
+
+}
+.inputDrop{
+    /* 502 86th St, Brooklyn, NY 11209 */
+border: none; /* Убирает рамку */
+outline: none; /* Убирает обводку */
+background: transparent; /* Убирает фон */  
+
+position: absolute;
+left: 0%;
+right: 5.86%;
+top: 45.1%;
+bottom: 7.84%;
+
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+
+/* Colour / DarkBlue */
+color: #1D253C;
+
+z-index: 100;
+}
+
+.btn_order{
+    /* Button */
+
+position: absolute;
+left: 4.88%;
+right: 4.88%;
+top: 76.27%;
+bottom: 13.56%;
+z-index: 100;
+
+
+}
+.btn_request{
+    /* Request */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 16.67%;
+bottom: 16.67%;
+
+font-family: 'Intro-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 178% */
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color: #FFFFFF;
+z-index: 100;
+
+
+}
+.btn_fill{
+    /* btn */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Colour / Blue */
+background: #2B6BF3;
+border-radius: 32px;
+
+}
+.clearAll{
+    /* ClearAll */
+
+position: absolute;
+width: 81px;
+height: 24px;
+left: 124px;
+top: 424px;
+z-index: 100;
+
+}
+.vectorClear{
+    /* Vector */
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 124px;
+top: 432px;
+
+background: #C4C4C4;
+z-index: 100;
+}
+
+.clearAllText{
+    /* Clear All */
+
+position: absolute;
+width: 65px;
+height: 24px;
+left: 140px;
+top: 424px;
+
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #999999;
+z-index: 100;
+
+
+}

@@ -82,3 +82,38 @@ top: 36px;
 z-index: 100; /* Убедись, что меню отображается поверх других элементов */
 
 }
+.pin{
+    /* Pin */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 16px;
+top: 204px;
+z-index: 100;
+
+}
+.pin1{
+  /* Pin */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 16px;
+top: 292px;
+z-index: 100;
+
+
+}
+.vector{
+    /* Vector */
+
+position: absolute;
+width: 4px;
+height: 52px;
+left: 26px;
+top: 236px;
+z-index: 100;
+background: rgba(43, 107, 243, 0.08);
+
+}
