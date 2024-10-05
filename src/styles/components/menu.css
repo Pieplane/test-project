@@ -28,3 +28,122 @@
     background: #FFFFFF;
     z-index: 100; /* Убедись, что содержимое меню также отображается поверх */
   }
+
+  .menu__city{
+    /* City */
+
+position: absolute;
+width: 138px;
+height: 24px;
+left: 16px;
+top: 24px;
+
+
+  }
+  .menu__to{
+    /* To */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 242px;
+height: 40px;
+left: 16px;
+top: 88px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+  }
+
+  .menu__order{
+    /* Order delivery */
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 16px;
+top: 172px;
+
+font-family: 'Intro-Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #666666;
+
+
+  }
+  .menu__courier{
+    /* Become a Courier */
+
+position: absolute;
+width: 136px;
+height: 24px;
+left: 16px;
+top: 220px;
+
+font-family: 'Intro-Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #666666;
+
+
+  }
+  .menu__program{
+    /* Affiliate Program */
+
+position: absolute;
+width: 130px;
+height: 24px;
+left: 16px;
+top: 268px;
+
+font-family: 'Intro-Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #666666;
+
+
+  }
+  .menu__help{
+    /* Help & Support */
+
+position: absolute;
+width: 115px;
+height: 24px;
+left: 16px;
+top: 316px;
+
+font-family: 'Intro-Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #666666;
+
+
+  }
+  .menu__btn{
+    /* Btn */
+
+position: absolute;
+width: 242px;
+height: 48px;
+left: 16px;
+top: 560px;
+
+
+  }
