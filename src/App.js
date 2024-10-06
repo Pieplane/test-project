@@ -5,6 +5,7 @@ import Info from './components/Info';
 import Intro from './components/Intro';
 import Partners from './components/Partners';
 import PaymentSlider from './components/PaymentMethod';
+import Footer from './components/Footer';
 import React, {useState} from 'react';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
     <Partners />
     <Intro />
     <PaymentSlider />
+    <Footer />
     </div>
   );
 };
