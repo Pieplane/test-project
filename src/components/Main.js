@@ -23,7 +23,11 @@ const GetStarted = () =>{
                     Send a Parcel
                 </div>
                 <div className='i'>
-                    <img src="images/i.png" alt="i" />
+                    <div class="tooltip-container-i">
+                    <img src="images/i.png" alt="i" style={{ cursor: 'pointer' }}/>
+                        <div class="tooltip-i">A commission is a piece of work that someone is asked to do and is paid for.</div>
+                    </div>
+                    
                 </div>
                 <div className='pin'>
                 <img src="images/Pin.png" alt="Pin" />

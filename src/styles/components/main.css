@@ -330,4 +330,37 @@ top: 4486px;
     height: auto; /* Автоматическая высота для адаптации к содержимому */
     cursor: pointer;
   }
+
+  .tooltip-container-i {
+    position: relative; /* Контейнер должен быть относительно позиционирован */
+    display: inline-block;
+}
+
+.button-i {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tooltip-i {
+    visibility: hidden; /* Тултип скрыт по умолчанию */
+    position: absolute;
+    bottom: 125%; /* Позиционируем тултип выше кнопки */
+    left: 50%;
+    transform: translateX(-50%); /* Центрируем тултип относительно кнопки */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: normal; /* Не переносить текст в тултипе */
+    z-index: 1; /* Убедиться, что тултип поверх других элементов */
+    width: 200px;
+    opacity: 0;
+    transition: opacity 0.3s; /* Добавляем плавное появление */
+}
+
+.tooltip-container-i:hover .tooltip-i {
+    visibility: visible; /* Показываем тултип при наведении */
+    opacity: 1; /* Анимация плавного появления */
+}
   
