@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Main from './components/Main';
+import Info from './components/Info';
 import React, {useState} from 'react';
 
 const App = () => {
@@ -12,10 +13,9 @@ const App = () => {
   return (
     <div>
     <Main />
-    <Header toggleMenu = {toggleMenu}> 
-    </Header>
+    <Header toggleMenu = {toggleMenu}></Header>
     {isMenuOpen && <Menu toggleMenu={toggleMenu}/>}
-    
+    <Info />
     </div>
   );
 };

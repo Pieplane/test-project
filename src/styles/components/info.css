@@ -1,0 +1,102 @@
+.infoBox{
+    /* Info */
+
+position: absolute;
+width: 360px;
+height: 1240px;
+left: 0px;
+top: 1344px;
+
+}
+
+.expressText1{
+    /* Express courier service in the city. We are a reliable logistics partner for delivery services for online stores and restaurants! */
+
+position: absolute;
+width: 328px;
+height: 128px;
+left: 16px;
+top: 129px;
+
+/* 360 / H4 book 20px, 32pt */
+font-family: 'Intro-Book';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+text-align: center;
+
+/* Colour / DarkBlue */
+color: #1D253C;
+
+opacity: 0.48;
+
+}
+.storesText{
+    /* Online stores */
+
+position: absolute;
+width: 328px;
+height: 64px;
+left: 16px;
+top: 54px;
+
+/* 360 / H1 24px, 32pt */
+font-family: 'Intro-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+text-align: center;
+
+/* Colour / DarkBlue */
+color: #1D253C;
+
+
+}
+.image1{
+    /* 1 */
+
+position: absolute;
+width: 300px;
+height: 280px;
+left: 30px;
+top: 272px;
+
+
+}
+.image2{
+    /* 2 */
+
+position: absolute;
+width: 300px;
+height: 280px;
+left: 30px;
+top: 584px;
+
+
+}
+.image3{
+    /* 3 */
+
+position: absolute;
+width: 300px;
+height: 280px;
+left: 30px;
+top: 896px;
+
+
+}
+.sepline{
+    /* Sepline */
+
+position: absolute;
+width: 360px;
+height: 28px;
+left: 0px;
+top: 1224px;
+
+
+}
