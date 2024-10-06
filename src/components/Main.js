@@ -24,8 +24,35 @@ const GetStarted = () =>(
             <div className='pad'></div>
             <Tabs />
             <Form />
+
             </div>
-            
+            <img src="images/Track.png" alt="Track" className='track' />
+            <div className='info'>
+                <div className='expressText'>
+                    Our service started work in New York
+                </div>
+                <div className='deliveryText'>
+                We make delivery exactly at the time you need - we can start to fulfill the order a few minutes after it arrives, or we can deliver on a specific day and hour.
+                </div>
+                <div className='readMoreText'>
+                    Read more
+                </div>
+                <div className='vectorReadMore'>
+                    <img src="images/VectorReadMore.png" alt="Vector" />
+                </div>
+            </div>
+            <div className='city'>
+                <img src="images/city1.png" alt="city" />
+            </div> 
+            <div className='howItWorksText'>
+                How it works
+            </div>
+            <div className='video'>
+                <img src="images/video.png" alt="video" />
+            </div>
+            <div className='pagging'>
+                <img src="images/Pagging.png" alt="pagging" />
+            </div>
         </div>
         
     </div>

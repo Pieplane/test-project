@@ -23,14 +23,11 @@ background: #F8FAFF;
 }
 
 .getStarted{
-    /* GetStarted */
-
-position: absolute;
+ position: absolute;
 width: 328px;
 height: 472px;
 left: 16px;
 top: 96px;
-
 
 }
 
@@ -115,5 +112,162 @@ left: 26px;
 top: 236px;
 z-index: 100;
 background: rgba(43, 107, 243, 0.08);
+
+}
+.track{
+    /* Track */
+
+position: absolute;
+width: 328px;
+height: 128px;
+left: 16px;
+top: 600px;
+
+border-radius: 8px;
+
+}
+.info{
+    /* Info */
+
+position: absolute;
+width: 327px;
+height: 212px;
+left: 16px;
+top: 774px;
+
+
+}
+.expressText{
+    /* Express delivery market revolution */
+
+/* Express delivery market revolution */
+position: absolute;
+top: 0; /* Привязка к верхней части блока */
+left: 0;
+right: 0;
+
+/* 360 / H1 24px, 32pt */
+font-family: 'Intro-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* Colour / DarkBlue */
+color: #1D253C;
+
+
+}
+.deliveryText{
+    /* We make delivery exactly at the time you need - we can start to fulfill the order a few minutes after it arrives, or we can deliver on a specific day and hour. */
+
+position: absolute;
+left: 0;
+right: 4.72%;
+top: 38%;
+bottom: 29.46%;
+
+/* desktop / txt book 16px, 24pt */
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #666666;
+z-index: 100;
+
+}
+.readMoreText{
+    /* Read more */
+
+position: absolute;
+left: 0;
+right: 69.72%;
+top: 85.58%;
+bottom: 26.64%;
+
+/* desktop / H5 regular 18px, 24pt */
+font-family: 'Intro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+/* Colour / Blue */
+color: #2B6BF3;
+z-index: 100;
+
+}
+.vectorReadMore{
+    /* Vector */
+
+position: absolute;
+width: 5px;
+height: 8px;
+right: 238px;
+top: 85.58%;
+z-index: 100;
+/* Colour / Blue */
+
+}
+.city{
+    /* city */
+
+position: absolute;
+width: 328px;
+height: 190px;
+left: 16px;
+top: 936px;
+
+
+border-radius: 2px;
+z-index: 99;
+}
+.howItWorksText{
+    /* How it works */
+
+position: absolute;
+width: 122px;
+height: 24px;
+left: 16px;
+top: 1023px;
+
+/* 360 / H3 20px, 24 pt */
+font-family: 'Intro Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+/* Colour / DarkBlue */
+color: #1D253C;
+z-index: 100;
+
+}
+.video{
+    /* Video */
+
+position: absolute;
+width: 328px;
+height: 200px;
+left: 16px;
+top: 1064px;
+z-index: 100;
+
+}
+.pagging{
+    /* Pagging */
+
+position: absolute;
+width: 144px;
+height: 8px;
+left: 17px;
+top: 1281px;
+
 
 }
