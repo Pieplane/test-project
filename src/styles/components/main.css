@@ -271,3 +271,63 @@ top: 1281px;
 
 
 }
+
+.aboutUs{
+    /* We make delivery exactly at the time you need - we can start to fulfill the order a few minutes after it arrives, or we can deliver on a specific day and hour. */
+
+position: absolute;
+left: 16px;
+top: 4292px;
+
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #666666;
+
+
+}
+.etc{
+    /* ETC */
+
+position: absolute;
+width: 25px;
+height: 15px;
+left: 175px;
+top: 4486px;
+
+
+}
+.text-toggle-container {
+    position: relative;
+    width: 100%; /* Занимает всю ширину контейнера */
+    margin-bottom: 20px; /* Отступ снизу */
+  }
+  
+  .text-content {
+    overflow: hidden; /* Скрывать текст, если высота превышена */
+    transition: max-height 0.5s ease; /* Плавная анимация */
+    line-height: 1.5; /* Межстрочный интервал для удобного чтения */
+    margin-bottom: 10px; /* Отступ снизу для кнопки */
+  }
+  
+  .text-content.collapsed {
+    max-height: 100px; /* Фиксированная высота для короткого текста */
+  }
+  
+  .text-content.expanded {
+    max-height: none; /* Убираем ограничение для полного текста */
+  }
+  
+  .toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Центрирование слайда по горизонтали */
+    height: auto; /* Автоматическая высота для адаптации к содержимому */
+    cursor: pointer;
+  }
+  

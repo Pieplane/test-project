@@ -1,0 +1,62 @@
+.slide-container-payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Центрирование слайда по горизонтали */
+    width: 84px; /* Фиксированная ширина контейнера */
+    height: 56px; /* Фиксированная высота контейнера */
+    padding: 0px; /* Внутренний отступ */
+    box-sizing: border-box; /* Учитываем отступы и рамки в ширине/высоте */
+    margin-top: 120px; /* Отступ сверху */
+  }
+  
+  .slide-image-payment {
+    max-width: 100%; /* Ограничить ширину изображения до размера контейнера */
+    max-height: 100%; /* Ограничить высоту изображения до размера контейнера */
+    object-fit: contain; /* Сохранить пропорции изображения */
+    display: block; /* Для корректного центрирования */
+    margin: 0 auto; /* Центрирование изображения по горизонтали */
+  }
+  .paymentBox{
+    /* PaymentMethod */
+
+position: absolute;
+width: 360px;
+height: 224px;
+left: 0px;
+top: 3984px;
+
+
+  }
+  .paymentText{
+    /* Payment method */
+
+position: absolute;
+left: 4.44%;
+right: 4.44%;
+top: 24.11%;
+bottom: 61.61%;
+
+/* 360 / H1 24px, 32pt */
+font-family: 'Intro-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Colour / DarkBlue */
+color: #1D253C;
+
+
+  }
+  .payment-sepline{
+    /* Sepline */
+
+position: absolute;
+width: 1440px;
+height: 28px;
+left: 0px;
+top: 240px;
+  }

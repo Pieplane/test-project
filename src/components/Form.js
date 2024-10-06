@@ -28,7 +28,7 @@ const Form = () => {
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}
-                placeholder="Введите значение"
+                placeholder="Enter value"
                 className="inputPickUp"
                 />
         </div>
@@ -42,7 +42,7 @@ const Form = () => {
                 type="text"
                 value={inputValue1}
                 onChange={handleInputChange1}
-                placeholder="Введите значение"
+                placeholder="Enter value"
                 className="inputDrop"
                 />
         </div>
